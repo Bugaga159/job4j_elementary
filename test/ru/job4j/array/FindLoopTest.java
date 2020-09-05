@@ -72,15 +72,4 @@ public class FindLoopTest {
 		int expect = 5;
 		assertThat(result, is(expect));
 	}
-
-	@Test
-	public void whenFind6Error() {
-		int[] input = new int[] {5, 20, 130, 2, 41, 344};
-		int value = 344;
-		int start = 2;
-		int finish = 6;
-		int result = FindLoop.indexOf(input, value, start, finish);
-		int expect = -1;
-		assertThat(result, is(expect));
-	}
 }
