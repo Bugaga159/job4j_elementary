@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class SqAreaTest {
 
-	//Из шаблона к заданию
 	@Test
 	public void square() {
 		int expected = 2;
