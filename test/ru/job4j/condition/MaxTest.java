@@ -28,4 +28,16 @@ public class MaxTest {
 		int result = Max.max(10, 2);
 		assertThat(result, is(10));
 	}
+
+	@Test
+	public void when3numbersThen16() {
+		int result = Max.max(10, 2, 16);
+		assertThat(result, is(16));
+	}
+
+	@Test
+	public void when4numbersThen34() {
+		int result = Max.max(9, 12, 34, 28);
+		assertThat(result, is(34));
+	}
 }
